@@ -1,5 +1,5 @@
-## An example to render the topology view in OpenShift Developer Console
+## Examples for rendering the topology view in OpenShift Developer Console
 
-This example has one of more components
-- DB
-- WIT
+This repository has multiple directories representing applications. Each application has sub-directories representing components.
+
+Example, the components of `application-1` are `analytics` and `auth`.
