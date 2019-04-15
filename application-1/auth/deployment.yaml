@@ -7,6 +7,9 @@ metadata:
     app.kubernetes.io/name: auth
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: auth-1
+  annotations:
+    app.openshift.io/vcs-uri: "https://github.com/redhat-developer/topology-example"
+    app.openshift.io/vcs-ref: "v1.0.0"
 spec:
   replicas: 3
   selector:

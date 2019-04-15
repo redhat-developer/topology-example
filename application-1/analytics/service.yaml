@@ -8,6 +8,9 @@ metadata:
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: user-analytics
     app.kubernetes.io/version: "1.0"
+  annotations:
+    app.openshift.io/vcs-uri: "https://github.com/redhat-developer/topology-example"
+    app.openshift.io/vcs-ref: "v1.0.0"
 spec:
   ports:
     - port: 80
