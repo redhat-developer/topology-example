@@ -11,4 +11,3 @@ metadata:
   annotations:
     app.openshift.io/vcs-uri: "git@github.com:redhat-developer/topology-example.git"
     app.openshift.io/vcs-ref: "v1.0.0"
-  annotations:
