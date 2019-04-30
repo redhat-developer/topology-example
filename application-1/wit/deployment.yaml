@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/version: "1.0"
   annotations:
     app.openshift.io/vcs-uri: "git@github.com:redhat-developer/topology-example.git"
-    app.openshift.io/vcs-ref: "v1.0.0"
+    app.openshift.io/vcs-ref: "5a26937cdbb859aa786a73389ff7ef816ba9d63c"
 spec:
   replicas: 3
   selector:
