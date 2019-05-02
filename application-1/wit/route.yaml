@@ -8,6 +8,9 @@ metadata:
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: wit-1
     app.kubernetes.io/version: "1.0"
+  annotations:
+    app.openshift.io/vcs-uri: "git@github.com:redhat-developer/topology-example.git"
+    app.openshift.io/vcs-ref: "5a26937cdbb859aa786a73389ff7ef816ba9d63c"
 spec:
   host: wit.io
   path: /

@@ -8,6 +8,9 @@ metadata:
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: user-analytics
     app.kubernetes.io/version: "1.0"
+  annotations:
+    app.openshift.io/vcs-uri: "git@github.com:redhat-developer/topology-example.git"
+    app.openshift.io/vcs-ref: "9972451789e4a5724ff3b0be09fba5ebdd43b4d2"
 spec:
   replicas: 3
   selector:
