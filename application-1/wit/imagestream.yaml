@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ImageStream
+metadata:
+  name: wit-imagestream
+  labels: 
+    app.kubernetes.io/part-of: application-1
+    app.kubernetes.io/name: wit
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/instance: wit-1
+    app.kubernetes.io/version: "1.0"
+  annotations:
+    app.openshift.io/vcs-uri: "git@github.com:redhat-developer/topology-example.git"
+    app.openshift.io/vcs-ref: "5207bbab97030890f2977ac317e02c2399af45a1"
