@@ -4,7 +4,7 @@ metadata:
   name: wit-deployment
   labels: 
     app.kubernetes.io/part-of: application-1
-    app.kubernetes.io/name: wit
+    app.kubernetes.io/name: nodejs
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: wit-1
     app.kubernetes.io/version: "1.0"
@@ -16,7 +16,7 @@ spec:
   selector:
     matchLabels:
       app.kubernetes.io/part-of: application-1
-      app.kubernetes.io/name: wit
+      app.kubernetes.io/name: nodejs
       app.kubernetes.io/component: backend
       app.kubernetes.io/instance: wit-1
       app.kubernetes.io/version: "1.0"
@@ -24,7 +24,7 @@ spec:
     metadata:
       labels:
         app.kubernetes.io/part-of: application-1
-        app.kubernetes.io/name: wit
+        app.kubernetes.io/name: nodejs
         app.kubernetes.io/component: backend
         app.kubernetes.io/instance: wit-1
         app.kubernetes.io/version: "1.0"
