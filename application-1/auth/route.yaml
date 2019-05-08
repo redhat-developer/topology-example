@@ -4,7 +4,7 @@ metadata:
   name: auth-route
   labels: 
     app.kubernetes.io/part-of: application-1
-    app.kubernetes.io/name: auth
+    app.kubernetes.io/name: ruby
     app.kubernetes.io/component: backend
     app.kubernetes.io/instance: auth-1
     app.kubernetes.io/version: "1.0"
